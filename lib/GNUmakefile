@@ -7,6 +7,10 @@ ifeq '$(GMSLE_FALSE_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_false/GNUmakefile
 endif
 
+ifeq '$(GMSLE_IF_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
+    include $(LIB_GMSLE_PATH)/lib/gmsle_if/GNUmakefile
+endif
+
 ifeq '$(GMSLE_SEMVER_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_semver/GNUmakefile
 endif
