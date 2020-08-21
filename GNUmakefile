@@ -44,4 +44,5 @@ ifeq '$(LIB_GMSLE_PATH)' ''
 endif
 
 # Include the main loader
+include $(LIB_GMSLE_PATH)/config.mk
 include $(LIB_GMSLE_PATH)/lib/GNUmakefile
