@@ -4,3 +4,7 @@
 # Represents the inclusion policy
 GMSLE_INCLUDE_AUTOMATIC := 1
 GMSLE_INCLUDE_MANUAL    := 2
+
+# Represents the warning policy
+GMSLE_WARNINGS_NO  := 1
+GMSLE_WARNINGS_YES := 2
