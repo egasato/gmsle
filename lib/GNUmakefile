@@ -3,6 +3,10 @@
 
 # Include all the components
 
+ifeq '$(GMSLE_AND_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
+    include $(LIB_GMSLE_PATH)/lib/gmsle_and/GNUmakefile
+endif
+
 ifeq '$(GMSLE_FALSE_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_false/GNUmakefile
 endif
