@@ -6,4 +6,5 @@ include $(LIB_GMSLE_PATH)/enums.mk
 
 ## Define the default configuration
 
-GMSLE_INCLUDE ?= $(GMSLE_INCLUDE_AUTOMATIC)
+GMSLE_INCLUDE  ?= $(GMSLE_INCLUDE_AUTOMATIC)
+GMSLE_WARNINGS ?= $(GMSLE_WARNINGS_YES)
