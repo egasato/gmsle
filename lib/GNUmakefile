@@ -47,6 +47,10 @@ ifeq '$(GMSLE_TRUE_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_true/GNUmakefile
 endif
 
+ifeq '$(GMSLE_WORDS_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
+    include $(LIB_GMSLE_PATH)/lib/gmsle_words/GNUmakefile
+endif
+
 ifeq '$(GMSLE_XOR_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_xor/GNUmakefile
 endif
