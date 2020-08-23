@@ -1,0 +1,4 @@
+{
+	gsub(/^[[:space:]]+|[[:space:]]+$/, "")
+	print
+}
