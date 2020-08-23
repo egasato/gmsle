@@ -1,0 +1,4 @@
+{
+	gsub(from, to)
+	print
+}

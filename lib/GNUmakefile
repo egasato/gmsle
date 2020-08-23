@@ -43,6 +43,10 @@ ifeq '$(GMSLE_STRIP_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_strip/GNUmakefile
 endif
 
+ifeq '$(GMSLE_SUBST_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
+    include $(LIB_GMSLE_PATH)/lib/gmsle_subst/GNUmakefile
+endif
+
 ifeq '$(GMSLE_TRUE_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_true/GNUmakefile
 endif
