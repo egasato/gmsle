@@ -15,6 +15,10 @@ ifeq '$(GMSLE_FALSE_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_false/GNUmakefile
 endif
 
+ifeq '$(GMSLE_FIRSTWORD_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
+    include $(LIB_GMSLE_PATH)/lib/gmsle_firstword/GNUmakefile
+endif
+
 ifeq '$(GMSLE_IF_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_if/GNUmakefile
 endif
