@@ -67,6 +67,10 @@ ifeq '$(GMSLE_SEMVER_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_semver/GNUmakefile
 endif
 
+ifeq '$(GMSLE_SORT_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
+    include $(LIB_GMSLE_PATH)/lib/gmsle_sort/GNUmakefile
+endif
+
 ifeq '$(GMSLE_STRIP_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_strip/GNUmakefile
 endif
