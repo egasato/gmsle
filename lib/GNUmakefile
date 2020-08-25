@@ -31,6 +31,10 @@ ifeq '$(GMSLE_FALSE_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_false/GNUmakefile
 endif
 
+ifeq '$(GMSLE_FINDSTRING_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
+    include $(LIB_GMSLE_PATH)/lib/gmsle_findstring/GNUmakefile
+endif
+
 ifeq '$(GMSLE_FIRSTWORD_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_firstword/GNUmakefile
 endif
