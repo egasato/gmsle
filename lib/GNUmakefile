@@ -43,6 +43,10 @@ ifeq '$(GMSLE_IF_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_if/GNUmakefile
 endif
 
+ifeq '$(GMSLE_JOIN_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
+    include $(LIB_GMSLE_PATH)/lib/gmsle_join/GNUmakefile
+endif
+
 ifeq '$(GMSLE_LASTWORD_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_lastword/GNUmakefile
 endif
