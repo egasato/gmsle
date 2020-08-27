@@ -21,6 +21,7 @@ include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_join.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_lastword.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_notdir.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_or.mk
+include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_origin.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_realpath.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_sort.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_strip.mk
