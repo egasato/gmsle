@@ -3,3 +3,4 @@
 
 # Include all the internal tests
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_guile.mk
+include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_if.mk
