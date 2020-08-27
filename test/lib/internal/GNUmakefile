@@ -7,6 +7,7 @@ include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_addprefix.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_addsuffix.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_and.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_basename.mk
+include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_call.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_dir.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_eval.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_findstring.mk
