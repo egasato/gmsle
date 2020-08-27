@@ -2,3 +2,4 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 # Include all the tests
+include $(LIB_GMSLE_PATH)/test/lib/gmsle_false/GNUmakefile
