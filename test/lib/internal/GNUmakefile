@@ -12,6 +12,7 @@ include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_dir.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_eval.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_file.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_filter.mk
+include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_filter_out.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_findstring.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_firstword.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_flavor.mk
