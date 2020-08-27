@@ -8,6 +8,7 @@ include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_firstword.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_guile.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_if.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_lastword.mk
+include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_notdir.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_or.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_strip.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_subst.mk
