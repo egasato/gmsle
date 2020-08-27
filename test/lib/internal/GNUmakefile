@@ -10,6 +10,7 @@ include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_basename.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_call.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_dir.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_eval.mk
+include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_file.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_filter.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_findstring.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_firstword.mk
