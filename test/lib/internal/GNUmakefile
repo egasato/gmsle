@@ -30,6 +30,7 @@ include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_subst.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_suffix.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_undefine.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_value.mk
+include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_wildcard.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_word.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_wordlist.mk
 include $(LIB_GMSLE_PATH)/test/lib/internal/__gmsle_has_words.mk
