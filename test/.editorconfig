@@ -1,0 +1,4 @@
+# The Makefiles that have recipes must use tabs
+[GNUmakefile]
+indent_style = tab
+indent_size = 8
