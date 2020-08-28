@@ -13,5 +13,6 @@ include $(LIB_GMSLE_PATH)/test/lib/gmsle_or/GNUmakefile
 include $(LIB_GMSLE_PATH)/test/lib/gmsle_semver/GNUmakefile
 include $(LIB_GMSLE_PATH)/test/lib/gmsle_strip/GNUmakefile
 include $(LIB_GMSLE_PATH)/test/lib/gmsle_true/GNUmakefile
+include $(LIB_GMSLE_PATH)/test/lib/gmsle_wordlist/GNUmakefile
 include $(LIB_GMSLE_PATH)/test/lib/gmsle_words/GNUmakefile
 include $(LIB_GMSLE_PATH)/test/lib/gmsle_xor/GNUmakefile
