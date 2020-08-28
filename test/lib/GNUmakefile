@@ -18,6 +18,7 @@ include $(LIB_GMSLE_PATH)/test/lib/gmsle_not/GNUmakefile
 include $(LIB_GMSLE_PATH)/test/lib/gmsle_notdir/GNUmakefile
 include $(LIB_GMSLE_PATH)/test/lib/gmsle_or/GNUmakefile
 include $(LIB_GMSLE_PATH)/test/lib/gmsle_semver/GNUmakefile
+include $(LIB_GMSLE_PATH)/test/lib/gmsle_sort/GNUmakefile
 include $(LIB_GMSLE_PATH)/test/lib/gmsle_strip/GNUmakefile
 include $(LIB_GMSLE_PATH)/test/lib/gmsle_subst/GNUmakefile
 include $(LIB_GMSLE_PATH)/test/lib/gmsle_suffix/GNUmakefile
