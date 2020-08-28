@@ -1,0 +1,14 @@
+# Use tabs for recipes
+[gmsle_target_*/*.mk]
+indent_style = tab
+indent_size  = 8
+
+# Use tabs for Awk and Sed programs
+[*.{awk,sed}]
+indent_style = tab
+indent_size  = 8
+
+# Use 2 spaces for GNU Guile programs
+[*.scm]
+indent_style = space
+indent_size  = 2
