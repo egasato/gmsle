@@ -31,6 +31,10 @@ ifeq '$(GMSLE_DIR_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_dir/GNUmakefile
 endif
 
+ifeq '$(GMSLE_EVAL_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
+    include $(LIB_GMSLE_PATH)/lib/gmsle_eval/GNUmakefile
+endif
+
 ifeq '$(GMSLE_FALSE_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_false/GNUmakefile
 endif
