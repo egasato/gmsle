@@ -63,6 +63,10 @@ ifeq '$(GMSLE_NAND_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_nand/GNUmakefile
 endif
 
+ifeq '$(GMSLE_NEWLINE_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
+    include $(LIB_GMSLE_PATH)/lib/gmsle_newline/GNUmakefile
+endif
+
 ifeq '$(GMSLE_NOR_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_nor/GNUmakefile
 endif
