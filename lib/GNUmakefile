@@ -107,6 +107,10 @@ ifeq '$(GMSLE_SUFFIX_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_suffix/GNUmakefile
 endif
 
+ifeq '$(GMSLE_TARGET_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
+    include $(LIB_GMSLE_PATH)/lib/gmsle_target/GNUmakefile
+endif
+
 ifeq '$(GMSLE_TRUE_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_true/GNUmakefile
 endif
