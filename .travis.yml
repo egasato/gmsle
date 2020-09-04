@@ -1,0 +1,39 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+# Use the POSIX shell as target language (the smallest image available)
+language: sh
+
+# Use as many distributions as possible and fail if any of them fails
+# except for EOL distributions.
+jobs:
+  fast_finish: true
+  include:
+  - dist: focal   # 20.04
+  - dist: bionic  # 18.04
+  - dist: xenial  # 16.04
+  - dist: trusty  # 14.04
+  - dist: precise # 12.04
+  allow_failures:
+  - if: dist = trusty OR dist = precise # <= 14.04
+
+# Do not waste resources on other branches
+branches:
+  only:
+  - master
+
+# Prepare the environment
+before_script:
+  - .ci/make-version.sh
+  - .ci/awk-version.sh
+  - .ci/sed-version.sh
+  - .ci/grep-version.sh
+  - .ci/tr-version.sh
+  - make -f .ci/features.mk
+  - source .ci/gmsle-no-test-guile.sh
+  - source .ci/gmsle-no-test-awk.sh
+  - source .ci/gmsle-no-test-sed.sh
+  - source .ci/gmsle-no-test-grep.sh
+
+# Test the project
+script:
+  - make --directory=test test

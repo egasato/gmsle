@@ -1,0 +1,4 @@
+# Makefile recipes and POSIX shell scripts should use tabs
+[features.mk,*.sh]
+indent_style = tab
+indent_size = 8
