@@ -1,0 +1,9 @@
+GNU Make library (libmake)
+==============================================================================
+
+This project is under development and updated using the force flag.
+Please, do not open any issue or pull request until version 1.0 is finished,
+because force-pushing makes commit references disappear (that's why it's
+discouraged when collaborating, but as I stated, refrain from collaborating).
+Meanwhile, use the existing project 'gmsl', available at Sourceforge, which
+inspired this project: https://gmsl.sourceforge.io
