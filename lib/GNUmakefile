@@ -123,6 +123,10 @@ ifeq '$(GMSLE_TARGET_LN_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_target_ln/GNUmakefile
 endif
 
+ifeq '$(GMSLE_TARGET_ODT2PDF_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
+    include $(LIB_GMSLE_PATH)/lib/gmsle_target_odt2pdf/GNUmakefile
+endif
+
 ifeq '$(GMSLE_TARGET_TOUCH_INCLUDE)' '$(GMSLE_INCLUDE_AUTOMATIC)'
     include $(LIB_GMSLE_PATH)/lib/gmsle_target_touch/GNUmakefile
 endif
